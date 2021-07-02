@@ -23,8 +23,8 @@
         android:id="@+id/vector"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="7dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginLeft="5dp"
         android:layout_toRightOf="@+id/mobile1"
         android:src="@drawable/edit"
         />

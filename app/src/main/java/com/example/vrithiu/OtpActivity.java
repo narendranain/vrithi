@@ -46,7 +46,7 @@ public class OtpActivity extends AppCompatActivity implements View.OnClickListen
         new CountDownTimer(60000, 1000) {
 
             public void onTick(long millisUntilFinished) {
-                time_duration.setText(" " + millisUntilFinished / 1000+" sec");
+                time_duration.setText("00:" + millisUntilFinished / 1000);
             }
 
             public void onFinish() {
