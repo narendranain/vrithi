@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">vrithiu</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_your_">Enter Your \nPhone Number</string>
+    <string name="extrabold">gilroyextrabold.otf</string>
+    <string name="semibold">gilroysemibold.ttf</string>
+    <string name="some_id">+91</string>
+    <string name="some_id1">9876543212</string>
+    <string name="contin">Continue</string>
+    <string name="phone_edit">+91</string>
+    <string name="enter_the_o">Enter The\nOTP</string>
+    <string name="otp">1234</string>
+    <string name="time_dur">00:59</string>
+    <string name="notes">Notes</string>
+    <string name="personal_me">Personal messages to you</string>
+    <string name="interested_">Interested In You</string>
+    <string name="premium_mem">Premium members can\nview all their likes at once\u00E2\u0080\u00A8</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="meena_23">Meena, 23</string>
+    <string name="tap_to_revi">Tap to review 50+ notes</string>
+</resources>

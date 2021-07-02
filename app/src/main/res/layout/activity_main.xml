@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/get_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/gilroysemibold"
+        android:text="@string/get_otp"
+        android:textColor="@color/textcolor"
+        android:textAppearance="@style/get_otp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/enter_your_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/get_otp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/gilroyextrabold"
+        android:text="@string/enter_your_"
+        android:textColor="@color/textcolor"
+        android:textAppearance="@style/enter_your_"
+        android:gravity="top"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rmob"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/enter_your_">
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="64dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="31dp"
+            android:layout_alignParentTop="true"
+
+            android:background="@drawable/rectangle_1"
+            />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="7dp"
+            android:layout_alignParentTop="true"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            android:fontFamily="@font/gilroysemibold"
+            android:gravity="top"
+            />
+
+        <EditText
+            android:id="@+id/editnumber"
+            android:layout_width="147dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="103dp"
+            android:paddingLeft="16dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:fontFamily="@font/gilroysemibold"
+            android:text="@string/some_id1"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle2"
+            />
+
+        <View
+            android:id="@+id/continue1"
+            android:layout_width="96dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/some_id"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/rectangle3"
+            />
+        <TextView
+            android:id="@+id/contin"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/some_id"
+            android:fontFamily="@font/gilroysemibold"
+            android:text="@string/contin"
+            android:textAppearance="@style/contin"
+            android:gravity="center_horizontal|top"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

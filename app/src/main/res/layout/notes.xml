@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notes_scree"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notes_screen">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/notes"
+        android:textAppearance="@style/notes"
+        android:gravity="center_horizontal|top"
+        />
+
+
+    <TextView
+        android:id="@+id/personal_me"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/personal_me"
+        android:textAppearance="@style/personal_me"
+        android:gravity="top"
+        />
+
+
+
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/personal_me"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/photo_1" />
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="364.06dp"
+        android:layout_height="93dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-3.06dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="359dp"
+        android:background="@drawable/meenarect3"
+        />
+    <TextView
+        android:id="@+id/meena_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="391dp"
+        android:text="@string/meena_23"
+        android:textAppearance="@style/meena_23"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/tap_to_revi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="418dp"
+        android:text="@string/tap_to_revi"
+        android:textAppearance="@style/tap_to_revi"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/interested_"
+        android:layout_width="273dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="464dp"
+        android:text="@string/interested_"
+        android:textAppearance="@style/interested_"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/premium_mem"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="496dp"
+        android:text="@string/premium_mem"
+        android:textAppearance="@style/premium_mem"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/upgrade_but"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="247dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="483dp"
+        android:background="@drawable/upgrade_but"
+        />
+    <TextView
+        android:id="@+id/upgrade"
+        android:layout_width="62dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="273dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="496dp"
+        android:text="@string/upgrade"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="@style/upgrade"
+        android:lineSpacingExtra="5sp"
+        android:translationY="-2.31sp"
+        android:gravity="top"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/premium_mem"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+      >
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+        android:layout_below="@+id/personal_me"  >
+
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/r1"
+                    android:orientation="horizontal" >
+                <View
+                    android:id="@+id/himg"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/photo_2" />
+
+                <TextView
+                    android:id="@+id/mtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginTop="260dp"
+                    android:textStyle="bold"
+                    android:gravity="top"
+                    android:lineSpacingExtra="0sp"
+                    android:text="Teena"
+                    android:textAppearance="@style/meena_23" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/r1"
+            android:orientation="horizontal" >
+            <View
+                android:id="@+id/himg1"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/photo_3" />
+
+            <TextView
+                android:id="@+id/mtext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="260dp"
+                android:gravity="top"
+                android:background="@color/cardview_shadow_end_color"
+                android:lineSpacingExtra="0sp"
+                android:text="Beena"
+                android:textAppearance="@style/meena_23" />
+        </RelativeLayout>
+</RelativeLayout>
+
+    </HorizontalScrollView>
+    </RelativeLayout>
+</ScrollView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            app:elevation="6dp"
+            android:background="?android:attr/windowBackground"
+            android:backgroundTint="@color/cardview_light_background"
+
+            app:menu="@menu/bottom_navigation" />
+
+    </FrameLayout>
+</RelativeLayout>
+
+
